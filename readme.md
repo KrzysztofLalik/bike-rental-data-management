@@ -1,6 +1,6 @@
 # bike-rental-data-management
 
-This repository contains code to complete Codecademy's `Bike Rental Data Management` project.
+This repository contains code to complete `Bike Rental Data Management` project.
 
 ## Project Overview
 

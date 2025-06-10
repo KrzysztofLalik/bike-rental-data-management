@@ -1,11 +1,11 @@
 CREATE TABLE dates(
-     date_key integer PRIMARY KEY,
-     full_date date,
+        date_key integer PRIMARY KEY,
+        full_date date,
 	month integer,
 	day integer,
 	month_name varchar(20),
 	day_name varchar(20),
-     weekend boolean,
+        weekend boolean,
 	financial_qtr integer
 );
 
@@ -26,7 +26,7 @@ CREATE TABLE users(
 
 CREATE TABLE weather (
 	date_key integer PRIMARY KEY REFERENCES dates(date_key),
-     date date,
+        date date,
 	avg_wind real,
 	prcp real,
 	snow_amt real,
@@ -50,7 +50,7 @@ CREATE TABLE trips(
      start_station_id integer,
      stop_station_id integer,
      distance real,
-     distance_validation boolean,
+     distance_0 boolean,
      bike_id integer,
      date_key integer,
      user_id integer,

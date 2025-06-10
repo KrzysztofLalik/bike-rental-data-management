@@ -15,9 +15,7 @@ Input Datasets:
 - Citi Bike Jersey City (2016): 12x Monthly trip records
 - NOAA Weather (Newark Airport, 2016): 1x Daily weather measurements 
 
-# Data Cleaning and Preprocessing Report
-
-## Overview
+## Overview 
 
 While inspecting both datasets, a number of issues were detected and the necessary actions were taken.  
 In addition to these, column names were adjusted to follow consistent naming conventions, data types were corrected, and more intuitive columns were created based on the existing ones.
